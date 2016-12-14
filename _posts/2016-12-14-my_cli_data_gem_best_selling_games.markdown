@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My CLI Data Gem: Best Selling Games"
-date:   2016-12-14 03:50:32 +0000
+date:   2016-12-13 22:50:33 -0500
 ---
 
 
@@ -182,6 +182,8 @@ end
 ```
 
 After struggling greatly with the previous projects and doubting my ability to complete this course, I can happily say that completing this project all on my own has given me great confidence in my future as a potential full stack web developer. I now look forward to meeting the challenges ahead.
+
+Github Repo Link: https://github.com/Jschles1/bestselling_games-cli-app
 
 
 
