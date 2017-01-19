@@ -185,6 +185,8 @@ After struggling greatly with the previous projects and doubting my ability to c
 
 Github Repo Link: https://github.com/Jschles1/bestselling_games-cli-app
 
+UPDATE: So I finally have time to update this post. After I completed my assessment with my learn instructor, I was given tips on how to better improve my app. The main change I have made is that I have made a new `Game` class which would solely be responsible for making new `Game` objects. The `Scraper` class now is solely responsible for scraping the GameStop webpage for game data. Feel free to take a look at my GitHub repo to see specifically what I changed.
+
 
 
 
