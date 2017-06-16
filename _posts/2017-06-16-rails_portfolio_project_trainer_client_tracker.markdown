@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rails Portfolio Project: Trainer Client Tracker"
-date:   2017-06-16 06:24:09 +0000
+date:   2017-06-16 02:24:10 -0400
 ---
 
 
@@ -103,7 +103,7 @@ def update_progress
 end
 ```
 
-Here, the `:weight_recording`'s of each `WeightHistory` object belonging to the client and added up and set equal to a local variable called `progress`. The client's `:progress` attribute is then updated to equal the value of the `progress` variable.
+Here, the `:weight_recording`'s of each `WeightHistory` object belonging to the client and added up and set equal to a local variable called `progress`. The client's `:progress` attribute is then updated to equal the value of the `progress` variable. Finally, the `complete_appointment` method is called, which simply adds 1 to the client's `completed_appointments` attribute.
 
 After overcoming these problems after much difficulty, I felt like a huge "weight" had been lifted off my back. While I did run into a few more frustrating problems that I won't mention here, I managed to find a solution for mostly all of them. Again, finishing this project came down to perserverance and never giving up in the presence of what it seemed like endless errors. I am very eager to move on from this project as soon as I can and finally move into the JavaScript section of the course. 
 
