@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trainer Client Tracker: Implementing a jQuery Front End"
-date:   2017-08-19 01:52:03 +0000
+date:   2017-08-18 21:52:04 -0400
 ---
 
 
@@ -15,7 +15,7 @@ The main change I made to my app was the addition of a "Dashboard" page. On this
 
 To fulfill the fourth requirement of this project, I added new model, `Note`, which `belongs_to` a `Client`. A `Client` `has_many` `Notes`. Say your new client preivously had surgery for a shoulder injury that you need to take into account when you end up making a training program for that client. On the a client's show page, you can make a note for that client and render it immediately onto the page. 
 
-On a client's show page, you also can now click either the "Next" or "Previous" buttons to sift through all your clients, with the next/previous client being requested and rendered to the page via jQuery. When I was implementing this feature, I ended up running into an interesting problem. When we implemented a similar feature in our labs, clicking the "Next" button would simply request the resource with an `id` attribute 1 greater than the one currently on the page. Say there are 5 unique resources with their own `id`. If we deleted the resource with the `id` of `3`, the app would break if we clicked "Next" while viewing the show resource with the `id` of `2` (since `3` no longer exists).
+On a client's show page, you also can now click either the "Next" or "Previous" buttons to sift through all your clients, with the next/previous client being requested and rendered to the page via jQuery & AJAX. When I was implementing this feature, I ended up running into an interesting problem. When we implemented a similar feature in our labs, clicking the "Next" button would simply request the resource with an `id` attribute 1 greater than the one currently on the page. Say there are 5 unique resources with their own `id`. If we deleted the resource with the `id` of `3`, the app would break if we clicked "Next" while viewing the show resource with the `id` of `2` (since `3` no longer exists).
 
 Here's what I implemented to fix this problem:
 
@@ -35,7 +35,7 @@ function getNext(id, array) {
 
 This function takes 2 arguments: the id of the current client (which is retrieved by a matching `data-id` attribute of the "Next" button), and an array. This array contains the `id` attribute of each client that belongs to the current user. We define the variable `next` as being equal to the `id` plus 1 (which equals the `id` of the client resource we want to retrieve). 
 
-Next, we initiate a `while` loop. While `next` is less than or equal to the last element of the array (which is always the highest numbered client `id` that exists), we check if the current value of `next` matches any of the `id`'s in the array. If so, we call `renderClient()` with `next` passed in as an argument, (which will make the jQuery request to the backend, using `next` as the `id` in the request URL) and then break from the loop. If not, we increment `next` by 1 and check again.
+Next, we initiate a `while` loop. While `next` is less than or equal to the last element of the array (which is always the highest numbered client `id` that exists), we check if the current value of `next` matches any of the `id`'s in the array. If so, we call `renderClient()` with `next` passed in as an argument, (which will make the AJAX GET request to the backend, using `next` as the `id` in the request URL) and then break from the loop. If not, we increment `next` by 1 and check again.
 
 Here's the version of the function that gets called when the user clicks on "Previous"
 
