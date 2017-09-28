@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "React-Redux Final Project: Workout Planner"
-date:   2017-09-25 22:51:59 +0000
+date:   2017-09-25 18:52:00 -0400
 ---
 
 
-For my React-Redux final project, I created a simple app that allows users to create workouts and add/remove exercises to each workout. When adding an exercise, you can specify its name, number of repetitions, number of sets, and the rest period between sets.
+For my React-Redux final project, I created a simple app that allows users to create workouts and add/remove exercises to each workout. When adding an exercise, you can specify its name, number of repetitions, number of sets, and the rest period between sets. If you're new to fitness and exercising in general, the app can provide you with suggested beginner workouts, which you can choose to add to your list of personal workouts.
 
 The first thing I decided to do when building this app was to build the Rails API backend. I found this easy to build since I wasn't dealing with an external API, and would just dealing with API calls to two resources: Workouts and Exercises. Workouts have many Exercises, and Exercises belong to a workout. To ensure the API functioned properly and rendered the right responses to different requests without having to build out the front end first, I used TDD with RSpec. The Rails API live lecture done by Luke was invaluable in guiding me through this process.
 
@@ -79,8 +79,8 @@ export default function workoutsReducer(state = [], action) {
 
 I made this app simple because I wanted to get the basics down when it comes to building a full-stack app, since using React, Redux, and a Rails API can get complicated very quickly. I plan on building new features for this app in the near future, including:
 
-* Implementing user accounts and authentication
-* Create a feature where users can get suggested workouts and exercises based on what their goal is. This will primarily be useful for those who don't know where to start when it comes to exercising and getting into shape. I'm deciding whether I should use an external API for this or if I should seed the database with premade workouts and exercises.
+* Implementing user accounts and authentication.
+* Improve aspects of the styling.
 
 [Here](https://github.com/Jschles1/workout-planner) is the link to the GitHub repo of my project.
 
