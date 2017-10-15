@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Post-Grad: How My Fitness Background Helped Me Graduate Flatiron School"
-date:       2017-10-15 00:07:01 +0000
+date:       2017-10-14 20:07:02 -0400
 permalink:  post-grad_how_my_fitness_background_helped_me_graduate_flatiron_school
 ---
 
@@ -10,7 +10,7 @@ After passing my assessment for the React-Redux final project, I have finally gr
 
 When I made my first blog post a little over a year ago, I explained that I planned on having a career in the fitness industry as a personal trainer. While attending college, I discovered a passion for bodybuilding and physical fitness. By persevering 2 hours a day in the gym and improving my diet, I increased my strength and muscle mass and completely transformed my old physique into one I never thought I would be able to achieve before. This was an especially huge accomplishment for me as I was never an athletic person during my teenage years, preferring activities such as video games. It made such a huge impact on my life that I decided to pursue a career in personal training. I then spent a few months getting certified.
 
-Unfortunately, after a few weeks of working in that field, I quickly decided that it was not for me. There was much more pressure put on selling training packages instead of implementing the creative aspect of creating training programs for clients. Also, involving many of the popular figures in the fitness industry who had inspired me were beginning to become exposed regarding fraudulent activity; some were caught taking steroids when they insisted that they had built their physiques naturally, using the line of supplements they were promoting. Others were caught photoshopping pictures of themselves to look blatantly different than what they looked like in real life. People were also caught advertising services where they would be providing clients with custom workout plans tailored to their needs for prices up to $200, when in fact they were copying and pasting workouts from sites such as bodybuilding.com. I decided that I didn't want to work in an industry where unethical behavior was widespread and seemed to be the norm.
+Unfortunately, after a few weeks of working in that field, I quickly decided that it was not for me. There was much more pressure put on selling training packages instead of implementing the creative aspect of creating training programs for clients. I wanted to work in a field where my creative aspect could shine.
 
 When I signed up for the Learn-Verified program, I realized that I would be making another transformation; instead this time, I would be making a mental transformation instead of physical; I would be learning to look at things in new ways that I didn’t know I would be capable of before.
 
