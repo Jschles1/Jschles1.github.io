@@ -28,6 +28,6 @@ The last piece of advice I would give is to **not be afraid to ask for help.** W
 
 If you’re stuck on a lab, don’t be afraid to use the Ask A Question feature. I knew sometimes during my run through the curriculum that my ego would get in the way, and that part of me felt like using the feature was me “giving up”.  I realized this was a waste of time when I couldn’t get a certain lab to pass in the Sinatra portion after trying for about 4 hours to fix a bug. Stumped, I utilized the Ask A Question feature. The learn expert immediately noticed I was missing a '/' character at the beginning of one of my urls, fixing the problem. Sometimes all it takes is another pair of eyes to catch a bug you've been struggling to find.
 
-While I have just graduated the Learn-Verified program, I know that my journey as a developer is only just getting started. Stay tuned for future blog posts, where I will be documenting each step of this journey and the things learn from it.
+While I have just graduated the Learn-Verified program, I know that my journey as a developer is only just getting started. Stay tuned for future blog posts, where I will be documenting each step of this journey and the things I learn from it.
 
 
