@@ -13,7 +13,7 @@ After graduating, one would think that I would have more time, but its actually 
 - Learning new material, mainly related to CS and algorithm topics. I feel that this is definitely my weak point right now as a developer. I’m going to make this my main focus of where I spend my time once I finish refreshing my knowledge on the early sections of the curriculum. Here are the sources I’m planning on utilizing:
     - The Flatiron CS module.
     - [Interview Cake](https://www.interviewcake.com/)
-    - [Base CS](https://medium.com/basecs) (Written by a FlatIron Grad)
+    - [Base CS](https://medium.com/basecs) (Written by a Flatiron Grad)
     - [Learning Algorithms from JavaScript in Scratch on Udemy](https://www.udemy.com/learning-algorithms-in-javascript-from-scratch/)
     - Pretty much anything else of value I can find (blog posts, articles, youtube videos, etc.)
     - Sites like code wars and hacker rank which I have already been utilizing to test my skills.
