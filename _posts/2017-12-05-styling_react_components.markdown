@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Styling React Components"
-date:       2017-12-06 02:56:31 +0000
+date:       2017-12-05 21:56:32 -0500
 permalink:  styling_react_components
 ---
 
@@ -29,7 +29,7 @@ render(
 )
 ```
 
-* Use whenever you want to scope a style to a single element and not any other element in your application (or even in your component.
+* Use whenever you want to scope a style to a single element and not any other element in your application (or even in your component).
 * Also can be used to dynamically change styles on state or prop changes by changing the styles object properties.
 * One downside to this approach is that you cannot define pseudoselectors or media queries. Using a third party package called Radium can enable their use.
 
@@ -37,8 +37,9 @@ render(
 
 CSS Modules are a feature we can enable by editing the build configuration of the application to allow imported CSS files to be scoped only to the current component file. Here's how to implement them:
 
-1. Run the npm run eject command to eject from react scripts and enable build conifguration editing (This is a permanent and non-reversable action, so commit and push any changes before running the command).
-2. In the newly generated config folder, open the webpack.config.dev.js file, and scroll down to the css-loader section and change the options: section to look like the following:
+1 . Run the npm run eject command to eject from react scripts and enable build conifguration editing (This is a permanent and non-reversable action, so commit and push any changes before running the command).
+
+2 . In the newly generated config folder, open the webpack.config.dev.js file, and scroll down to the css-loader section and change the options: section to look like the following:
 
 ```
 {
@@ -51,7 +52,7 @@ CSS Modules are a feature we can enable by editing the build configuration of th
 },
 ```
 
-3. Also enable modules in the accompanying webpack.config.prod.js file:
+3 . Also enable modules in the accompanying webpack.config.prod.js file:
 
 ```
 {
