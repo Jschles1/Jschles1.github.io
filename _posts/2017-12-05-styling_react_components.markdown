@@ -12,7 +12,7 @@ As I undertook the journey of learning how to code, I always enjoyed working on 
 
 This offers a good way of organizing CSS code, but the code in these files will still be scoped globally.
 
-**Use inline styles. **
+**Use inline styles.**
 
 Inline styles involve defining your styles in JavaScript, inside the component's render function. In your return JSX code, use the style property to implement the styles you defined on the selected element.
 
