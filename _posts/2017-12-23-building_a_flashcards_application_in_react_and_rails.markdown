@@ -17,6 +17,6 @@ Now, here's the fun part: once a user creates and fills their deck with cards, t
 
 Here's a screenshot:
 
-![](https://photos.app.goo.gl/E8px9WT5N2CSrzTS2)
+![](https://i.imgur.com/5kf2miF.png)
 
 [Here's](https://github.com/Jschles1/react-rails-flashcards) a link to the GitHub repo to the project if you're interested in checking it out.
