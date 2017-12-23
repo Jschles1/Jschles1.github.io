@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building A Flashcards Application In React & Rails"
-date:       2017-12-23 05:10:44 +0000
+date:       2017-12-23 00:10:44 -0500
 permalink:  building_a_flashcards_application_in_react_and_rails
 ---
 
@@ -17,6 +17,6 @@ Now, here's the fun part: once a user creates and fills their deck with cards, t
 
 Here's a screenshot:
 
-![Flashcards](https://imgur.com/5kf2miF)
+![](https://photos.app.goo.gl/E8px9WT5N2CSrzTS2)
 
 [Here's](https://github.com/Jschles1/react-rails-flashcards) a link to the GitHub repo to the project if you're interested in checking it out.
