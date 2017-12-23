@@ -19,4 +19,4 @@ Here's a screenshot:
 
 ![](https://i.imgur.com/5kf2miF.png)
 
-[Here's](https://github.com/Jschles1/react-rails-flashcards) a link to the GitHub repo to the project if you're interested in checking it out.
+[Here's](https://github.com/Jschles1/react-rails-flashcards) a link to the GitHub project repo if you're interested in checking it out.
