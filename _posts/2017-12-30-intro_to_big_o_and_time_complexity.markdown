@@ -23,8 +23,7 @@ function firstElement(array) {
 }
 ```
 
-
-** Linear Time (O(n)):**
+ **Linear Time (O(n)):**
 
 With linear time, there is a direct, 1-to-1 relationship between number of inputs and amount of work needed to process it. A dead giveaway for this time complexity would be an algorithm that iterates over a collection of data, such as a `for` loop that goes from `0` to `array.length`.
 
